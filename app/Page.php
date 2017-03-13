@@ -12,4 +12,10 @@ class Page extends Model
     protected $fillable = [
         'title', 'description', 'image_name', 'meta_title', 'meta_description', 'permalink', 'password_protected', 'nav_menu_label', 'username', 'is_active',
     ];
+
+    protected $resend = [
+    	'title', 'description', 'image_name', 'meta_title', 'meta_description', 'permalink', 'password_protected', 'nav_menu_label', 'username', 'is_active',
+    ];
 }
+
+
