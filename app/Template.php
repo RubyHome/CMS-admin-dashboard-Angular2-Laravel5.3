@@ -12,4 +12,7 @@ class Template extends Model
     protected $fillable = [
         'title', 'description', 'summary', 'meta_title', 'meta_description', 'is_active',
     ];
+    protected $fillable1 = [
+        'title', 'description', 'summary', 'meta_title', 'meta_description', 'is_active',
+    ];
 }
